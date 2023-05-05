@@ -1,0 +1,30 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8e9eb;
+}
+
+.content {
+    padding: 1rem;
+    margin: 0;
+    background-color: #FFF;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+/* On screens that are 992px, set the background color to blue */
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+  }
+
+
